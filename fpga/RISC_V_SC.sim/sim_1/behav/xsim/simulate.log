@@ -1,0 +1,23 @@
+Time resolution is 1 ps
+Applying reset
+Test 1: Write to memory
+Test 2: Read from memory
+Test 3: Write to another address
+Test 4: Read from first address
+Test 5: Read from second address
+Test 6: Reset functionality
+Test 7: Read after reset
+Test 8: Write to address after reset
+Test 9: Read after write
+$finish called at time : 190 ns : File "/home/johncrespo/FPGA/RISC_V_SC/sim/BLOCK_MEM_tb.sv" Line 94
+Applying reset
+Test 1: Write to memory
+Test 2: Read from memory
+Test 3: Write to another address
+Test 4: Read from first address
+Test 5: Read from second address
+Test 6: Reset functionality
+Test 7: Read after reset
+Test 8: Write to address after reset
+Test 9: Read after write
+$finish called at time : 190 ns : File "/home/johncrespo/FPGA/RISC_V_SC/sim/BLOCK_MEM_tb.sv" Line 94
