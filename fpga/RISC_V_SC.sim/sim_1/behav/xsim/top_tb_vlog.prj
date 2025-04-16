@@ -1,0 +1,34 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../src/ALU" --include "../../../../RISC_V_SC.ip_user_files/ipstatic" \
+"../../../../RISC_V_SC.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../RISC_V_SC.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../RISC_V_SC.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../../src/CONTROL_UNIT/Extend.v" \
+"../../../../../src/UART_RX/uart_rx.v" \
+
+sv xil_defaultlib  --include "../../../../../src/ALU" --include "../../../../RISC_V_SC.ip_user_files/ipstatic" \
+"../../../../../src/ALU/ALU.sv" \
+"../../../../../src/INSTR_MEM/buff_filler.sv" \
+"../../../../../src/INSTR_MEM/instr_mem.sv" \
+"../../../../../src/PC_COUNTER/pc_counter.sv" \
+"../../../../../src/REG_FILE/regfile.sv" \
+"../../../../../src/TOP/top.sv" \
+
+verilog xil_defaultlib  --include "../../../../../src/ALU" --include "../../../../RISC_V_SC.ip_user_files/ipstatic" \
+"../../../../../src/CONTROL_UNIT/ALU_decoder.v" \
+"../../../../../src/CONTROL_UNIT/Main_decoder.v" \
+
+sv xil_defaultlib  --include "../../../../../src/ALU" --include "../../../../RISC_V_SC.ip_user_files/ipstatic" \
+"../../../../../src/BLOCK_MEM/block_mem.sv" \
+"../../../../../src/CONTROL_UNIT/ALU_controller.sv" \
+"../../../../../sim/BLOCK_MEM_tb.sv" \
+"../../../../../sim/BUFFER_FILLER_tb.sv" \
+"../../../../../sim/INSTR_MEM_tb.sv" \
+"../../../../../sim/REG_FILE_tb.sv" \
+"../../../../../sim/TOP_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,201 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:13:54 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 157642
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Apr 16 17:33:29 EDT 2025
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Fedora release 39 (Thirty Nine)
+OS Version: 6.11.9-100.fc39.x86_64
+OS Architecture: amd64
+Available processors (cores): 8
+LSB Release Description: Fedora release 39 (Thirty Nine)
+
+Display: 0
+Screen size: 1920x1080
+Local screen bounds: x = 3840, y = 0, width = 1920, height = 1080
+Screen resolution (DPI): 100
+Available screens: 3
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	/opt/Xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7
+Java executable: 	/opt/Xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	johncrespo
+User home directory: /home/johncrespo
+User working directory: /home/johncrespo/FPGA/RISC_V_SC
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2023.2
+RDI_DATADIR: /opt/Xilinx/Vivado/2023.2/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: /home/johncrespo/.Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: /home/johncrespo/.Xilinx/Vivado/2023.2/
+Vivado layouts directory: /home/johncrespo/.Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	/opt/Xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/johncrespo/FPGA/RISC_V_SC/vivado.log
+Vivado journal file: 	/home/johncrespo/FPGA/RISC_V_SC/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-157642-fedora
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /opt/Xilinx/Vivado/2023.2
+RDI_BASEROOT: /opt/Xilinx/Vivado
+RDI_BINROOT: /opt/Xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /opt/Xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: /opt/Xilinx
+RDI_INSTALLVER: 2023.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: /opt/Xilinx/Vivado/2023.2/lib/lnx64.o/Default:/opt/Xilinx/Vivado/2023.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /opt/Xilinx/Vivado/2023.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /opt/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/johncrespo/FPGA/RISC_V_SC:fedora_1744839188_157599
+RDI_SHARED_DATA: /opt/Xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: /opt/Xilinx/Vivado/2023.2/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /opt/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: /opt/Xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2023.2
+XILINX_VIVADO: /opt/Xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2023.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,378 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,381 MB. GUI used memory: 68 MB. Current time: 4/16/25, 5:33:30 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.xpr", 0); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// Opening Vivado Project: /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.xpr. Version: Vivado v2023.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// Tcl Message: open_project /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.xpr 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,528 MB. GUI used memory: 66 MB. Current time: 4/16/25, 5:35:30 PM EDT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 106 MB (+108917kb) [00:02:17]
+// [Engine Memory]: 1,553 MB (+1476508kb) [00:02:17]
+// [Engine Memory]: 1,699 MB (+72084kb) [00:02:18]
+// [GUI Memory]: 122 MB (+11425kb) [00:02:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  4107 ms.
+// Tcl Message: open_project /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2023.2/data/ip'. 
+// [GUI Memory]: 148 MB (+19828kb) [00:02:21]
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:06 . Memory (MB): peak = 7942.848 ; gain = 227.289 ; free physical = 532 ; free virtual = 8593 
+// Project name: RISC_V_SC; location: /home/johncrespo/FPGA/RISC_V_SC/fpga; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bq (Open Project Progress)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog0)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_top (TOP_tb.sv)]", 13, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_top (TOP_tb.sv)]", 13, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("TOP_tb.sv", 102, 383); // ad (TOP_tb.sv)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,778 MB. GUI used memory: 77 MB. Current time: 4/16/25, 5:35:55 PM EDT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+dismissDialog("Run Synthesis"); // u (dialog1)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: xvlog --incr --relax -L uvm -prj tb_top_vlog.prj 
+// [Engine Memory]: 1,800 MB (+16608kb) [00:03:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,800 MB. GUI used memory: 102 MB. Current time: 4/16/25, 5:36:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,800 MB. GUI used memory: 78 MB. Current time: 4/16/25, 5:37:03 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,800 MB. GUI used memory: 77 MB. Current time: 4/16/25, 5:37:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,800 MB. GUI used memory: 104 MB. Current time: 4/16/25, 5:38:03 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,800 MB. GUI used memory: 77 MB. Current time: 4/16/25, 5:38:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,800 MB. GUI used memory: 105 MB. Current time: 4/16/25, 5:39:03 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,801 MB. GUI used memory: 105 MB. Current time: 4/16/25, 5:39:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,801 MB. GUI used memory: 105 MB. Current time: 4/16/25, 5:40:03 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,801 MB. GUI used memory: 105 MB. Current time: 4/16/25, 5:40:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,801 MB. GUI used memory: 105 MB. Current time: 4/16/25, 5:41:03 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,801 MB. GUI used memory: 105 MB. Current time: 4/16/25, 5:41:33 PM EDT
+// Elapsed time: 345 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (RDIResource.ProgressDialog_CANCEL)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (RDIResource.ProgressDialog_BACKGROUND)
+// 'd' command handler elapsed time: 346 seconds
+closeMainWindow("RISC_V_SC - [/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.xpr] - Vivado 2023.2"); // F (MainFrame)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'
