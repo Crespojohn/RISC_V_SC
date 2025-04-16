@@ -1,0 +1,3 @@
+c             clk clk_wiz/clk_in1          0          0 -2147483648 -2147483648
+s clk_wiz/clk_out1             RxD       8720 -2147483648 -2147483648       8720
+c clk_wiz/clk_out1       clk_10MHz          0          0 -2147483648 -2147483648
