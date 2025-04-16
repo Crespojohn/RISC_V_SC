@@ -3,14 +3,5 @@
 Oct 13 2023
 20:21:30
 /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/sim/ALU_tb.sv,1743790522,systemVerilog,,,,tb_ALU,,uvm,../../../../../src/ALU,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/sim/BLOCK_MEM_tb.sv,1743885367,systemVerilog,,,,tb_block_mem,,uvm,../../../../../src/ALU,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/sim/BUFFER_FILLER_tb.sv,1743798220,systemVerilog,,,,tb_buffer_filler,,uvm,../../../../../src/ALU,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/sim/INSTR_MEM_tb.sv,1743799480,systemVerilog,,,,tb_instr_mem,,uvm,../../../../../src/ALU,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/sim/REG_FILE_tb.sv,1743795627,systemVerilog,,,,tb_regfile,,uvm,../../../../../src/ALU,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/src/ALU/ALU.sv,1743792398,systemVerilog,/home/johncrespo/FPGA/RISC_V_SC/sim/ALU_tb.sv,/home/johncrespo/FPGA/RISC_V_SC/sim/ALU_tb.sv,/home/johncrespo/FPGA/RISC_V_SC/src/ALU/ALU.svh,$unit_ALU_sv_2042430212;ALU,,uvm,../../../../../src/ALU,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/src/ALU/ALU.svh,1743786312,verilog,,,,,,,,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/src/BLOCK_MEM/block_mem.sv,1743885554,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/sim/BLOCK_MEM_tb.sv,,block_mem,,uvm,../../../../../src/ALU,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/buff_filler.sv,1743798135,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/sim/BUFFER_FILLER_tb.sv,,buffer_filler,,uvm,../../../../../src/ALU,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/instr_mem.sv,1743800029,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/sim/INSTR_MEM_tb.sv,,instr_mem,,uvm,../../../../../src/ALU,,,,,
-/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv,1743795245,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/sim/REG_FILE_tb.sv,,regfile,,uvm,../../../../../src/ALU,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/sim/BUFFER_FILLER_tb.sv,1743798220,systemVerilog,,,,tb_buffer_filler,,uvm,../../../../../src/ALU;../../../../RISC_V_SC.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/buff_filler.sv,1744395742,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/sim/BUFFER_FILLER_tb.sv,,buffer_filler,,uvm,../../../../../src/ALU;../../../../RISC_V_SC.ip_user_files/ipstatic,,,,,

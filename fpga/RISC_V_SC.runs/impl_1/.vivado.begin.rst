@@ -1,95 +1,85 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="17214" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="11111" HostCore="8" HostMemory="7765304">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="17775" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="13926" HostCore="8" HostMemory="7765304">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="20026" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="4142" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="24070" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="27310" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="31632" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="30435" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="38294" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="32759" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="45235" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="33574" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="51320" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="41515" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="61415" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="47535" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="67748" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="51467" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="68274" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="58523" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="4707" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="67012" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="15397" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="79587" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="22063" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="86512" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="33791" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="87224" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="44585" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="93938" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="51888" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="64269" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="106830" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="103215" HostCore="8" HostMemory="7765300">
     </Process>
 </ProcessHandle>

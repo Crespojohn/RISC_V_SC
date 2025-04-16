@@ -16,7 +16,7 @@ int i;
 
 always @(posedge clk, negedge rst_n) begin
     if(!rst_n) begin
-        counter <= -1;
+        counter <= 8'd0;
         load_done <= 1'b0;
         for (i = 0; i < 256 ; i = i + 1) begin
             registers[i] <= 32'b0;
@@ -25,7 +25,7 @@ always @(posedge clk, negedge rst_n) begin
         if(load_en) begin
             registers[counter] <= load_inst;
             if(counter >= 255) load_done <= 1'b1;
-            if(!load_done) counter <= counter + 1;
+            if(!load_done) counter <= counter + 1'b1;
         end
     end
 end

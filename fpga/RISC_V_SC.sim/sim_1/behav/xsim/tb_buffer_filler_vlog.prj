@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../src/ALU" --include "../../../../RISC_V_SC.ip_user_files/ipstatic" \
+"../../../../../src/INSTR_MEM/buff_filler.sv" \
+"../../../../../sim/BUFFER_FILLER_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
