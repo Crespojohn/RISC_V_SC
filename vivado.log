@@ -3,15 +3,16 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Apr 15 21:06:01 2025
-# Process ID: 13475
+# Start of session at: Wed Apr 16 18:02:43 2025
+# Process ID: 162082
 # Current directory: /home/johncrespo/FPGA/RISC_V_SC
 # Command line: vivado
 # Log file: /home/johncrespo/FPGA/RISC_V_SC/vivado.log
 # Journal file: /home/johncrespo/FPGA/RISC_V_SC/vivado.jou
-# Running On: fedora, OS: Linux, CPU Frequency: 2900.046 MHz, CPU Physical cores: 4, Host memory: 7951 MB
+# Running On: fedora, OS: Linux, CPU Frequency: 2800.000 MHz, CPU Physical cores: 4, Host memory: 7951 MB
 #-----------------------------------------------------------
 start_gui
+open_project /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.xpr
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /opt/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /opt/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /opt/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
@@ -68,5 +69,48 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /opt/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /opt/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /opt/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-exit
-INFO: [Common 17-206] Exiting Vivado at Tue Apr 15 21:07:58 2025...
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:54 ; elapsed = 00:00:39 . Memory (MB): peak = 8043.016 ; gain = 386.906 ; free physical = 306 ; free virtual = 8371
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.srcs/utils_1/imports/synth_1/top.dcp with file /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 4
+[Wed Apr 16 18:12:51 2025] Launched synth_1...
+Run output will be captured here: /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv:]
+launch_runs impl_1 -jobs 4
+[Wed Apr 16 18:15:43 2025] Launched impl_1...
+Run output will be captured here: /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Apr 16 18:22:55 2025] Launched impl_1...
+Run output will be captured here: /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/impl_1/runme.log

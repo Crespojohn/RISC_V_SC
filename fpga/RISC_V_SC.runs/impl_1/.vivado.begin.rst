@@ -1,85 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="11111" HostCore="8" HostMemory="7765304">
+    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="163873" HostCore="8" HostMemory="7765288">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="13926" HostCore="8" HostMemory="7765304">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="4142" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="27310" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="30435" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="32759" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="33574" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="41515" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="47535" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="51467" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="58523" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="67012" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="79587" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="86512" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="87224" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="93938" HostCore="8" HostMemory="7765300">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="johncrespo" Host="n3-30-236.dhcp.drexel.edu" Pid="103215" HostCore="8" HostMemory="7765300">
+    <Process Command="vivado" Owner="johncrespo" Host="fedora" Pid="171692" HostCore="8" HostMemory="7765288">
     </Process>
 </ProcessHandle>

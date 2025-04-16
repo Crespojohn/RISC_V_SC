@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/buff_filler.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module buffer_filler
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/johncrespo/FPGA/RISC_V_SC/sim/BUFFER_FILLER_tb.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_buffer_filler
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

@@ -12,7 +12,8 @@ module regfile (
     // Writes
     input logic write_enable,
     input logic [31:0] write_data,
-    input logic [4:0] address3
+    input logic [4:0] address3,
+    output logic [31:0] register1
 );
 
 reg [31:0] registers [0:31];
@@ -24,11 +25,13 @@ always @(posedge clk, negedge rst_n) begin
             registers[i] <= 32'b0;
         end
     end else begin
+        // Prevent writing to x0 (always zero in RISC-V)
         if(write_enable && address3) registers[address3] <= write_data;
     end
 end
 
 assign read_data1 = registers[address1];
 assign read_data2 = registers[address2];
+assign register1 = registers[1];
 
 endmodule

@@ -1,89 +1,0 @@
-Data_For_RDAFlowver5.0
-	top levelèe
-top-
-LinkDesign_Blackboxes
-clk_wiz	clk_wiz_0à
-synthFileNamesL
-10F/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/BRAM_SINGLE_MACRO.vhdI
-11C/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/BRAM_TDP_MACRO.vhdM
-12G/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/COUNTER_LOAD_MACRO.vhdK
-13E/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/COUNTER_TC_MACRO.vhdK
-14E/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/EQ_COMPARE_MACRO.vhdH
-20B/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/ADDSUB_MACRO.vO
-15I/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/FIFO_DUALCLOCK_MACRO.vhdJ
-21D/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.vJ
-16D/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/FIFO_SYNC_MACRO.vhdM
-22G/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.vE
-17?/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/MACC_MACRO.vhdE
-18?/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/MULT_MACRO.vhdJ
-23D/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.vI
-19C/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/ADDMACC_MACRO.vN
-24H/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/COUNTER_LOAD_MACRO.vL
-25F/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/COUNTER_TC_MACRO.vF
-30@/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/MULT_MACRO.v
-NumFileNames50L
-26F/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/EQ_COMPARE_MACRO.vL
-31F/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unisims/retarget/MULT18X18.vhd?
-1:/opt/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_VCOMP.vhdP
-27J/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.vM
-32G/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unisims/retarget/MULT18X18S.vhd>
-29/opt/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_VPKG.vhdK
-28E/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/FIFO_SYNC_MACRO.vB
-33</opt/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv<
-37/opt/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.vF
-29@/opt/Xilinx/Vivado/2023.2/data/verilog/src/unimacro/MACC_MACRO.vB
-34</home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/buff_filler.sv?
-4:/opt/Xilinx/Vivado/2023.2/scripts/rt/data/internal_cells.v@
-35:/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/instr_mem.svW
-40Q/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/std_1164.vhd5
-50/opt/Xilinx/Vivado/2023.2/scripts/rt/data/BUFT.v4
-36./home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.svW
-41Q/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/standard.vhdH
-6C/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/unimacro_VCOMP.vhd‰
-37‚/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/.Xil/Vivado-102468-n3-30-236.dhcp.drexel.edu/realtime/clk_wiz_0_stub.vZ
-42T/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/numeric_std.vhdG
-7B/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/ADDMACC_MACRO.vhd;
-385/home/johncrespo/FPGA/RISC_V_SC/src/UART_RX/uart_rx.vU
-43O/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/textio.vhdF
-8A/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/ADDSUB_MACRO.vhd9
-393/opt/Xilinx/Vivado/2023.2/data/ip/xpm/xpm_VCOMP.vhdW
-44Q/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/timing_p.vhdH
-9C/opt/Xilinx/Vivado/2023.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhdW
-45Q/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/timing_b.vhdW
-46Q/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/prmtvs_p.vhdW
-47Q/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/prmtvs_b.vhdW
-48Q/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/syn_arit.vhdW
-49Q/home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.runs/synth_1/1993/src/syn_unsi.vhd
-
-synthStatsÐB
-ElaboratedNamesForRQS¶B
-DSP_RAMžA
-106499“A {instr_mem/registers_reg[0]_i} {instr_mem/registers_reg[100]_i} {instr_mem/registers_reg[101]_i} {instr_mem/registers_reg[102]_i} {instr_mem/registers_reg[103]_i} {instr_mem/registers_reg[104]_i} {instr_mem/registers_reg[105]_i} {instr_mem/registers_reg[106]_i} {instr_mem/registers_reg[107]_i} {instr_mem/registers_reg[108]_i} {instr_mem/registers_reg[109]_i} {instr_mem/registers_reg[10]_i} {instr_mem/registers_reg[110]_i} {instr_mem/registers_reg[111]_i} {instr_mem/registers_reg[112]_i} {instr_mem/registers_reg[113]_i} {instr_mem/registers_reg[114]_i} {instr_mem/registers_reg[115]_i} {instr_mem/registers_reg[116]_i} {instr_mem/registers_reg[117]_i} {instr_mem/registers_reg[118]_i} {instr_mem/registers_reg[119]_i} {instr_mem/registers_reg[11]_i} {instr_mem/registers_reg[120]_i} {instr_mem/registers_reg[121]_i} {instr_mem/registers_reg[122]_i} {instr_mem/registers_reg[123]_i} {instr_mem/registers_reg[124]_i} {instr_mem/registers_reg[125]_i} {instr_mem/registers_reg[126]_i} {instr_mem/registers_reg[127]_i} {instr_mem/registers_reg[128]_i} {instr_mem/registers_reg[129]_i} {instr_mem/registers_reg[12]_i} {instr_mem/registers_reg[130]_i} {instr_mem/registers_reg[131]_i} {instr_mem/registers_reg[132]_i} {instr_mem/registers_reg[133]_i} {instr_mem/registers_reg[134]_i} {instr_mem/registers_reg[135]_i} {instr_mem/registers_reg[136]_i} {instr_mem/registers_reg[137]_i} {instr_mem/registers_reg[138]_i} {instr_mem/registers_reg[139]_i} {instr_mem/registers_reg[13]_i} {instr_mem/registers_reg[140]_i} {instr_mem/registers_reg[141]_i} {instr_mem/registers_reg[142]_i} {instr_mem/registers_reg[143]_i} {instr_mem/registers_reg[144]_i} {instr_mem/registers_reg[145]_i} {instr_mem/registers_reg[146]_i} {instr_mem/registers_reg[147]_i} {instr_mem/registers_reg[148]_i} {instr_mem/registers_reg[149]_i} {instr_mem/registers_reg[14]_i} {instr_mem/registers_reg[150]_i} {instr_mem/registers_reg[151]_i} {instr_mem/registers_reg[152]_i} {instr_mem/registers_reg[153]_i} {instr_mem/registers_reg[154]_i} {instr_mem/registers_reg[155]_i} {instr_mem/registers_reg[156]_i} {instr_mem/registers_reg[157]_i} {instr_mem/registers_reg[158]_i} {instr_mem/registers_reg[159]_i} {instr_mem/registers_reg[15]_i} {instr_mem/registers_reg[160]_i} {instr_mem/registers_reg[161]_i} {instr_mem/registers_reg[162]_i} {instr_mem/registers_reg[163]_i} {instr_mem/registers_reg[164]_i} {instr_mem/registers_reg[165]_i} {instr_mem/registers_reg[166]_i} {instr_mem/registers_reg[167]_i} {instr_mem/registers_reg[168]_i} {instr_mem/registers_reg[169]_i} {instr_mem/registers_reg[16]_i} {instr_mem/registers_reg[170]_i} {instr_mem/registers_reg[171]_i} {instr_mem/registers_reg[172]_i} {instr_mem/registers_reg[173]_i} {instr_mem/registers_reg[174]_i} {instr_mem/registers_reg[175]_i} {instr_mem/registers_reg[176]_i} {instr_mem/registers_reg[177]_i} {instr_mem/registers_reg[178]_i} {instr_mem/registers_reg[179]_i} {instr_mem/registers_reg[17]_i} {instr_mem/registers_reg[180]_i} {instr_mem/registers_reg[181]_i} {instr_mem/registers_reg[182]_i} {instr_mem/registers_reg[183]_i} {instr_mem/registers_reg[184]_i} {instr_mem/registers_reg[185]_i} {instr_mem/registers_reg[186]_i} {instr_mem/registers_reg[187]_i} {instr_mem/registers_reg[188]_i} {instr_mem/registers_reg[189]_i} {instr_mem/registers_reg[18]_i} {instr_mem/registers_reg[190]_i} {instr_mem/registers_reg[191]_i} {instr_mem/registers_reg[192]_i} {instr_mem/registers_reg[193]_i} {instr_mem/registers_reg[194]_i} {instr_mem/registers_reg[195]_i} {instr_mem/registers_reg[196]_i} {instr_mem/registers_reg[197]_i} {instr_mem/registers_reg[198]_i} {instr_mem/registers_reg[199]_i} {instr_mem/registers_reg[19]_i} {instr_mem/registers_reg[1]_i} {instr_mem/registers_reg[200]_i} {instr_mem/registers_reg[201]_i} {instr_mem/registers_reg[202]_i} {instr_mem/registers_reg[203]_i} {instr_mem/registers_reg[204]_i} {instr_mem/registers_reg[205]_i} {instr_mem/registers_reg[206]_i} {instr_mem/registers_reg[207]_i} {instr_mem/registers_reg[208]_i} {instr_mem/registers_reg[209]_i} {instr_mem/registers_reg[20]_i} {instr_mem/registers_reg[210]_i} {instr_mem/registers_reg[211]_i} {instr_mem/registers_reg[212]_i} {instr_mem/registers_reg[213]_i} {instr_mem/registers_reg[214]_i} {instr_mem/registers_reg[215]_i} {instr_mem/registers_reg[216]_i} {instr_mem/registers_reg[217]_i} {instr_mem/registers_reg[218]_i} {instr_mem/registers_reg[219]_i} {instr_mem/registers_reg[21]_i} {instr_mem/registers_reg[220]_i} {instr_mem/registers_reg[221]_i} {instr_mem/registers_reg[222]_i} {instr_mem/registers_reg[223]_i} {instr_mem/registers_reg[224]_i} {instr_mem/registers_reg[225]_i} {instr_mem/registers_reg[226]_i} {instr_mem/registers_reg[227]_i} {instr_mem/registers_reg[228]_i} {instr_mem/registers_reg[229]_i} {instr_mem/registers_reg[22]_i} {instr_mem/registers_reg[230]_i} {instr_mem/registers_reg[231]_i} {instr_mem/registers_reg[232]_i} {instr_mem/registers_reg[233]_i} {instr_mem/registers_reg[234]_i} {instr_mem/registers_reg[235]_i} {instr_mem/registers_reg[236]_i} {instr_mem/registers_reg[237]_i} {instr_mem/registers_reg[238]_i} {instr_mem/registers_reg[239]_i} {instr_mem/registers_reg[23]_i} {instr_mem/registers_reg[240]_i} {instr_mem/registers_reg[241]_i} {instr_mem/registers_reg[242]_i} {instr_mem/registers_reg[243]_i} {instr_mem/registers_reg[244]_i} {instr_mem/registers_reg[245]_i} {instr_mem/registers_reg[246]_i} {instr_mem/registers_reg[247]_i} {instr_mem/registers_reg[248]_i} {instr_mem/registers_reg[249]_i} {instr_mem/registers_reg[24]_i} {instr_mem/registers_reg[250]_i} {instr_mem/registers_reg[251]_i} {instr_mem/registers_reg[252]_i} {instr_mem/registers_reg[253]_i} {instr_mem/registers_reg[254]_i} {instr_mem/registers_reg[255]_i} {instr_mem/registers_reg[25]_i} {instr_mem/registers_reg[26]_i} {instr_mem/registers_reg[27]_i} {instr_mem/registers_reg[28]_i} {instr_mem/registers_reg[29]_i} {instr_mem/registers_reg[2]_i} {instr_mem/registers_reg[30]_i} {instr_mem/registers_reg[31]_i} {instr_mem/registers_reg[32]_i} {instr_mem/registers_reg[33]_i} {instr_mem/registers_reg[34]_i} {instr_mem/registers_reg[35]_i} {instr_mem/registers_reg[36]_i} {instr_mem/registers_reg[37]_i} {instr_mem/registers_reg[38]_i} {instr_mem/registers_reg[39]_i} {instr_mem/registers_reg[3]_i} {instr_mem/registers_reg[40]_i} {instr_mem/registers_reg[41]_i} {instr_mem/registers_reg[42]_i} {instr_mem/registers_reg[43]_i} {instr_mem/registers_reg[44]_i} {instr_mem/registers_reg[45]_i} {instr_mem/registers_reg[46]_i} {instr_mem/registers_reg[47]_i} {instr_mem/registers_reg[48]_i} {instr_mem/registers_reg[49]_i} {instr_mem/registers_reg[4]_i} {instr_mem/registers_reg[50]_i} {instr_mem/registers_reg[51]_i} {instr_mem/registers_reg[52]_i} {instr_mem/registers_reg[53]_i} {instr_mem/registers_reg[54]_i} {instr_mem/registers_reg[55]_i} {instr_mem/registers_reg[56]_i} {instr_mem/registers_reg[57]_i} {instr_mem/registers_reg[58]_i} {instr_mem/registers_reg[59]_i} {instr_mem/registers_reg[5]_i} {instr_mem/registers_reg[60]_i} {instr_mem/registers_reg[61]_i} {instr_mem/registers_reg[62]_i} {instr_mem/registers_reg[63]_i} {instr_mem/registers_reg[64]_i} {instr_mem/registers_reg[65]_i} {instr_mem/registers_reg[66]_i} {instr_mem/registers_reg[67]_i} {instr_mem/registers_reg[68]_i} {instr_mem/registers_reg[69]_i} {instr_mem/registers_reg[6]_i} {instr_mem/registers_reg[70]_i} {instr_mem/registers_reg[71]_i} {instr_mem/registers_reg[72]_i} {instr_mem/registers_reg[73]_i} {instr_mem/registers_reg[74]_i} {instr_mem/registers_reg[75]_i} {instr_mem/registers_reg[76]_i} {instr_mem/registers_reg[77]_i} {instr_mem/registers_reg[78]_i} {instr_mem/registers_reg[79]_i} {instr_mem/registers_reg[7]_i} {instr_mem/registers_reg[80]_i} {instr_mem/registers_reg[81]_i} {instr_mem/registers_reg[82]_i} {instr_mem/registers_reg[83]_i} {instr_mem/registers_reg[84]_i} {instr_mem/registers_reg[85]_i} {instr_mem/registers_reg[86]_i} {instr_mem/registers_reg[87]_i} {instr_mem/registers_reg[88]_i} {instr_mem/registers_reg[89]_i} {instr_mem/registers_reg[8]_i} {instr_mem/registers_reg[90]_i} {instr_mem/registers_reg[91]_i} {instr_mem/registers_reg[92]_i} {instr_mem/registers_reg[93]_i} {instr_mem/registers_reg[94]_i} {instr_mem/registers_reg[95]_i} {instr_mem/registers_reg[96]_i} {instr_mem/registers_reg[97]_i} {instr_mem/registers_reg[98]_i} {instr_mem/registers_reg[99]_i} {instr_mem/registers_reg[9]_i} !
-233473 {RX/shift_counter0_i} "
-114691 {instr_mem/counter0_i} 
-143361 {RX/counter0_i} &
-122882 {buffer_filler/counter0_i} $
-blackBoxInfo
-clk_wiz	clk_wiz_0Ç
-synth_design
-isIncremental0
-Runtime0
-Threads used4š
-args‘-define default::[not_specified] -verilog_define default::[not_specified] -vhdl_define default::[not_specified] -top  top -part  xc7a35tcpg236-1 
-resynthPerc0.00
-Cputime0
-blackBoxPercinf
-	directive 
-synth_design_metrics
-bigRAMs-1
-NetsWithMixedFanouts-1
-DSPsWithKeep0$
-mismatchedAddSubOperatorWidths-1
-lowMaxFanout-1
-NumUnregisteredPorts0
-caseNotFullNoDefault-1
-	smallSrls-1
-srlsWithResetLogic-1
-shallowRAMWithAttribute-1
-hierMFO0
-RQS_Results

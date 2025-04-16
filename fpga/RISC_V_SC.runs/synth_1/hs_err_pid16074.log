@@ -1,5 +1,0 @@
-#
-# An unexpected error has occurred (11)
-#
-Stack:
-/lib64/libc.so.6(+0x3e9a0) [0x7fb11405c9a0]

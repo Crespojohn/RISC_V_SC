@@ -79,7 +79,7 @@ set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.cache/wt [current_project]
 set_property parent.project_path /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.xpr [current_project]
-set_property XPM_LIBRARIES XPM_CDC [current_project]
+set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part_repo_paths {/home/johncrespo/.Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store} [current_project]
@@ -88,17 +88,31 @@ set_property ip_output_repo /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.cache
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+read_verilog /home/johncrespo/FPGA/RISC_V_SC/src/ALU/ALU.svh
+set_property file_type "Verilog Header" [get_files /home/johncrespo/FPGA/RISC_V_SC/src/ALU/ALU.svh]
 read_verilog -library xil_defaultlib -sv {
-  /home/johncrespo/FPGA/RISC_V_SC/src/BLOCK_MEM/block_mem.sv
+  /home/johncrespo/FPGA/RISC_V_SC/src/ALU/ALU.sv
   /home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/buff_filler.sv
   /home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/instr_mem.sv
+  /home/johncrespo/FPGA/RISC_V_SC/src/PC_COUNTER/pc_counter.sv
+  /home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv
   /home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv
+  /home/johncrespo/FPGA/RISC_V_SC/src/BLOCK_MEM/block_mem.sv
+  /home/johncrespo/FPGA/RISC_V_SC/src/CONTROL_UNIT/ALU_controller.sv
 }
-read_verilog -library xil_defaultlib /home/johncrespo/FPGA/RISC_V_SC/src/UART_RX/uart_rx.v
+read_verilog -library xil_defaultlib {
+  /home/johncrespo/FPGA/RISC_V_SC/src/CONTROL_UNIT/Extend.v
+  /home/johncrespo/FPGA/RISC_V_SC/src/UART_RX/uart_rx.v
+  /home/johncrespo/FPGA/RISC_V_SC/src/CONTROL_UNIT/ALU_decoder.v
+  /home/johncrespo/FPGA/RISC_V_SC/src/CONTROL_UNIT/Main_decoder.v
+}
 read_ip -quiet /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
 set_property used_in_implementation false [get_files -all /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
 set_property used_in_implementation false [get_files -all /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
 set_property used_in_implementation false [get_files -all /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
+
+read_ip -quiet /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+set_property used_in_implementation false [get_files -all /home/johncrespo/FPGA/RISC_V_SC/fpga/RISC_V_SC.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
