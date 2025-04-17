@@ -77,7 +77,7 @@ wire [31:0] buffer_data;
 // Instruction Memory
 //----------------------------------------
 wire [31:0] instr_out;
-wire load_done;
+reg load_done;
 wire [7:0] pc;
 
 (* dont_touch = "yes" *) instr_mem instr_mem (
@@ -198,7 +198,7 @@ wire [31:0] jump_address;
 wire [31:0] pc_plus_4;
 
 // Assign the next PC value
-assign pc_plus_4 = pc + 4; // Next instruction address
+assign pc_plus_4 = pc + 1; // Next instruction address
 
 // PC module instantiation
 (* dont_touch = "yes" *) PC u_PC (
