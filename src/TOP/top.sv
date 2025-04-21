@@ -214,7 +214,7 @@ assign pc_plus_4 = pc + 1; // Next instruction address
 );
 
 // Branch or jump logic: Calculate the target addresses
-assign branch_address = pc + {{20{instr_out[31]}}, instr_out[7], instr_out[30:25], instr_out[11:8], instr_out[4:1], 1'b0};
+assign branch_address = pc + {{20{instr_out[31]}}, instr_out[7], instr_out[30:25], instr_out[11:8], 1'b0};
 wire is_jalr = (op == 7'b1100111);
 assign jump_address = is_jalr ? (read_data1 + ImmExt) :
                                    (pc + ImmExt); // for JAL

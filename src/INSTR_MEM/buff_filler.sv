@@ -20,10 +20,10 @@ module buffer_filler (
             data_ready <= 1'b0;  // Default low unless triggered
 
             if (dval) begin
-                shift_reg <= {shift_reg[23:0], data_in};  // Shift in new 8 bits
+                shift_reg <= {data_in, shift_reg[31:8]};  // Shift in new 8 bits
 
                 if (counter == 2'd3) begin
-                    data_out <= {shift_reg[23:0], data_in};  // Form final 32-bit word
+                    data_out <= {data_in, shift_reg[31:8]};  // Form final 32-bit word
                     data_ready <= 1'b1;
                     counter <= 2'd0;
                 end else begin
