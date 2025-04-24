@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uart_loader_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_ALU_sv_198554405 " />
+            <top_module name="glbl" />
+            <top_module name="uart_loader_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="11.637957758 ms"></ZoomStartTime>
+      <ZoomEndTime time="32.065578449 ms"></ZoomEndTime>
+      <Cursor1Time time="28.660975000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="289"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject type="logic" fp_name="/uart_loader_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_loader_tb/sw">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_loader_tb/RxD">
+      <obj_property name="ElementShortName">RxD</obj_property>
+      <obj_property name="ObjectShortName">RxD</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_loader_tb/led">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_loader_tb/instr_mem_data">
+      <obj_property name="ElementShortName">instr_mem_data[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_mem_data[0:255][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_loader_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group248">
+      <obj_property name="label">instr_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_regfile/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/rst_n">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/instr_mem/address">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/load_en">
+         <obj_property name="ElementShortName">load_en</obj_property>
+         <obj_property name="ObjectShortName">load_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/instr_mem/load_inst">
+         <obj_property name="ElementShortName">load_inst[31:0]</obj_property>
+         <obj_property name="ObjectShortName">load_inst[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/instr_mem/instruction">
+         <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/instr_mem/registers">
+         <obj_property name="ElementShortName">registers[0:255][31:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[0:255][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/load_done">
+         <obj_property name="ElementShortName">load_done</obj_property>
+         <obj_property name="ObjectShortName">load_done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/instr_mem/counter">
+         <obj_property name="ElementShortName">counter[7:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/instr_mem/i">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group30">
+      <obj_property name="label">regfile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_regfile/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_regfile/rst_n">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_regfile/address1">
+         <obj_property name="ElementShortName">address1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">address1[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_regfile/address2">
+         <obj_property name="ElementShortName">address2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">address2[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_regfile/read_data1">
+         <obj_property name="ElementShortName">read_data1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_regfile/read_data2">
+         <obj_property name="ElementShortName">read_data2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data2[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_regfile/write_enable">
+         <obj_property name="ElementShortName">write_enable</obj_property>
+         <obj_property name="ObjectShortName">write_enable</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_regfile/write_data">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_regfile/address3">
+         <obj_property name="ElementShortName">address3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">address3[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_regfile/register1">
+         <obj_property name="ElementShortName">register1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">register1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_regfile/registers">
+         <obj_property name="ElementShortName">registers[0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[0:31][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_regfile/i">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1255">
+      <obj_property name="label">pc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_PC/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_PC/rst_n">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_PC/branch">
+         <obj_property name="ElementShortName">branch</obj_property>
+         <obj_property name="ObjectShortName">branch</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_PC/zero">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_PC/jump">
+         <obj_property name="ElementShortName">jump</obj_property>
+         <obj_property name="ObjectShortName">jump</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/instr_mem/instruction">
+         <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_PC/branch_address">
+         <obj_property name="ElementShortName">branch_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">branch_address[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_PC/jump_address">
+         <obj_property name="ElementShortName">jump_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">jump_address[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_PC/pc_plus_4">
+         <obj_property name="ElementShortName">pc_plus_4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_plus_4[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_loader_tb/uut/u_PC/pc">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1397">
+      <obj_property name="label">alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALU/data_1_i">
+         <obj_property name="ElementShortName">data_1_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_1_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALU/data_2_i">
+         <obj_property name="ElementShortName">data_2_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_2_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALU/alu_op_i">
+         <obj_property name="ElementShortName">alu_op_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_op_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALU/zero_o">
+         <obj_property name="ElementShortName">zero_o</obj_property>
+         <obj_property name="ObjectShortName">zero_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALU/alu_result_o">
+         <obj_property name="ElementShortName">alu_result_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_result_o[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1406">
+      <obj_property name="label">mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/MEMORY/clka">
+         <obj_property name="ElementShortName">clka</obj_property>
+         <obj_property name="ObjectShortName">clka</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/MEMORY/rsta">
+         <obj_property name="ElementShortName">rsta</obj_property>
+         <obj_property name="ObjectShortName">rsta</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/MEMORY/ena">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/MEMORY/wea">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/MEMORY/addra">
+         <obj_property name="ElementShortName">addra[13:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/MEMORY/dina">
+         <obj_property name="ElementShortName">dina[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/MEMORY/douta">
+         <obj_property name="ElementShortName">douta[31:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/MEMORY/rsta_busy">
+         <obj_property name="ElementShortName">rsta_busy</obj_property>
+         <obj_property name="ObjectShortName">rsta_busy</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1410">
+      <obj_property name="label">extend</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_Extend/instruction">
+         <obj_property name="ElementShortName">instruction[31:7]</obj_property>
+         <obj_property name="ObjectShortName">instruction[31:7]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_Extend/ImmSrc">
+         <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_Extend/ImmExt">
+         <obj_property name="ElementShortName">ImmExt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmExt[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1432">
+      <obj_property name="label">control_unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALUControl/op">
+         <obj_property name="ElementShortName">op[6:0]</obj_property>
+         <obj_property name="ObjectShortName">op[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALUControl/funct3">
+         <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/funct7">
+         <obj_property name="ElementShortName">funct7</obj_property>
+         <obj_property name="ObjectShortName">funct7</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/zero">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/PCSrc">
+         <obj_property name="ElementShortName">PCSrc</obj_property>
+         <obj_property name="ObjectShortName">PCSrc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/jump">
+         <obj_property name="ElementShortName">jump</obj_property>
+         <obj_property name="ObjectShortName">jump</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/ALUSrc">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/RegWrite">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/MemWrite">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/branch">
+         <obj_property name="ElementShortName">branch</obj_property>
+         <obj_property name="ObjectShortName">branch</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALUControl/ImmSrc">
+         <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALUControl/ALUControl">
+         <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALUControl/ResultSrc">
+         <obj_property name="ElementShortName">ResultSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ResultSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALUControl/alu_ctrl">
+         <obj_property name="ElementShortName">alu_ctrl[2:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_ctrl[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/reg_write">
+         <obj_property name="ElementShortName">reg_write</obj_property>
+         <obj_property name="ObjectShortName">reg_write</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/mem_write">
+         <obj_property name="ElementShortName">mem_write</obj_property>
+         <obj_property name="ObjectShortName">mem_write</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/alu_src">
+         <obj_property name="ElementShortName">alu_src</obj_property>
+         <obj_property name="ObjectShortName">alu_src</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/do_branch">
+         <obj_property name="ElementShortName">do_branch</obj_property>
+         <obj_property name="ObjectShortName">do_branch</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/u_ALUControl/do_jump">
+         <obj_property name="ElementShortName">do_jump</obj_property>
+         <obj_property name="ObjectShortName">do_jump</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALUControl/imm_src">
+         <obj_property name="ElementShortName">imm_src[1:0]</obj_property>
+         <obj_property name="ObjectShortName">imm_src[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/uart_loader_tb/uut/u_ALUControl/result_src">
+         <obj_property name="ElementShortName">result_src[1:0]</obj_property>
+         <obj_property name="ObjectShortName">result_src[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus5936">
+      <obj_property name="label">IMM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[31]">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject type="vbus" fp_name="vbus5931">
+         <obj_property name="label">imm30to25</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[30]">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">[30]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[29]">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">[29]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[28]">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[27]">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[26]">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[25]">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="vbus" fp_name="vbus5923">
+         <obj_property name="label">imm11to8</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[11]">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[10]">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[9]">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/uart_loader_tb/uut/instr_mem/instruction[8]">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

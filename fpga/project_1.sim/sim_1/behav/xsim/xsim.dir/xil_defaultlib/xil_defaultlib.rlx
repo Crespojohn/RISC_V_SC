@@ -1,0 +1,19 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/johncrespo/FPGA/RISC_V_SC/sim/TOP_tb.sv,1745261381,systemVerilog,,,,uart_loader_tb,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/ALU/ALU.sv,1744920011,systemVerilog,/home/johncrespo/FPGA/RISC_V_SC/sim/TOP_tb.sv;/home/johncrespo/FPGA/RISC_V_SC/src/CONTROL_UNIT/ALU_controller.sv;/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/buff_filler.sv;/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/instr_mem.sv;/home/johncrespo/FPGA/RISC_V_SC/src/PC_COUNTER/pc_counter.sv;/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv;/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv,/home/johncrespo/FPGA/RISC_V_SC/src/CONTROL_UNIT/ALU_controller.sv,/home/johncrespo/FPGA/RISC_V_SC/src/ALU/ALU.svh,$unit_ALU_sv_198554405;ALU,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/ALU/ALU.svh,1744920011,verilog,,,,,,,,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/CONTROL_UNIT/ALU_controller.sv,1744920011,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/buff_filler.sv,,ALUControl,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/CONTROL_UNIT/Extend.v,1744920011,verilog,,/home/johncrespo/FPGA/RISC_V_SC/src/UART_RX/uart_rx.v,,Extend,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/buff_filler.sv,1745261851,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/instr_mem.sv,,buffer_filler,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/INSTR_MEM/instr_mem.sv,1744920011,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/src/PC_COUNTER/pc_counter.sv,,instr_mem,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/PC_COUNTER/pc_counter.sv,1744920011,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv,,PC,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/REG_FILE/regfile.sv,1744920011,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv,,regfile,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/TOP/top.sv,1745337181,systemVerilog,,/home/johncrespo/FPGA/RISC_V_SC/sim/TOP_tb.sv,,top,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/RISC_V_SC/src/UART_RX/uart_rx.v,1744920011,verilog,,,,receiver,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/project_1/project_1.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1744903269,verilog,,/home/johncrespo/FPGA/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,blk_mem_gen_0,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1744903218,verilog,,/home/johncrespo/FPGA/RISC_V_SC/src/CONTROL_UNIT/Extend.v,,clk_wiz_0,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1744903218,verilog,,/home/johncrespo/FPGA/project_1/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,uvm,../../../../../RISC_V_SC/src/ALU;../../../../project_1.ip_user_files/ipstatic,,,,,
+/home/johncrespo/FPGA/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
