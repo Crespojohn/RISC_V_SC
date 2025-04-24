@@ -7,6 +7,7 @@ module instr_mem (
     input logic [31:0] load_inst,
 
     output logic [31:0] instruction,
+    output logic [31:0] instruction_1,
     output logic load_done
 );
 
@@ -32,5 +33,6 @@ end
 
 //Assign instruction from register with address input
 assign instruction = registers[address];
+assign instruction_1 = registers[1];
 
 endmodule

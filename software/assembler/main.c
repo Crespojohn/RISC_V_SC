@@ -32,7 +32,7 @@ int main(int argc, char **argv)
     unsigned PC = 0;
     while (1) {
         instruction_t *instr = &(instr_mem.instructions[PC / 4]);
-        printf("\nInstruction at PC: %u\n", PC);
+        //printf("\nInstruction at PC: %u\n", PC);
         unsigned mask = (1 << 31);
         for (int i = 31; i >= 0; i--) {
             if (instr->instruction & mask)

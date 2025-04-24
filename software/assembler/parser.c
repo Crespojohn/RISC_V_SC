@@ -3,7 +3,7 @@
 // FIXME: add support to identify and parse I-type and SB-type instructions
 void load_instructions(instruction_memory_t *i_mem, const char *trace)
 {
-    printf("Loading trace file: %s\n\n", trace);
+    //printf("Loading trace file: %s\n\n", trace);
     FILE *fd = fopen(trace, "r");
     if (fd == NULL)
     {
@@ -93,12 +93,12 @@ void parse_R_type(char *opr, instruction_t *instr)
     unsigned rs_2 = get_register_number(reg);
 
     // Print the tokens
-    printf("Opcode: %u\n", opcode);
-    printf("funct3: %u\n", funct3);
-    printf("funct7: %u\n", funct7);
-    printf("Source register 1: %u\n", rs_1);
-    printf("Source register 2: %u\n", rs_2);
-    printf("Destination register: %u\n\n", rd);
+    //printf("Opcode: %u\n", opcode);
+    //printf("funct3: %u\n", funct3);
+    //printf("funct7: %u\n", funct7);
+    //printf("Source register 1: %u\n", rs_1);
+    //printf("Source register 2: %u\n", rs_2);
+    //printf("Destination register: %u\n\n", rd);
 
     // Contruct instruction
     instr->instruction |= opcode;
@@ -161,11 +161,11 @@ void parse_I_type(char *opr, instruction_t *instr)
     }
 
     // Print the tokens
-    printf("Opcode: %u\n", opcode);
-    printf("funct3: %u\n", funct3);
-    printf("Source register 1: %u\n", rs_1);
-    printf("Immediate register : %u\n", imm);
-    printf("Destination register: %u\n\n", rd);
+    //printf("Opcode: %u\n", opcode);
+    //printf("funct3: %u\n", funct3);
+    //printf("Source register 1: %u\n", rs_1);
+    //printf("Immediate register : %u\n", imm);
+    //printf("Destination register: %u\n\n", rd);
 
     // Contruct instruction
     instr->instruction |= opcode;
@@ -207,11 +207,11 @@ void parse_SB_type(char *opr, instruction_t *instr)
     imm = atoi(reg);
 
     // Print the tokens
-    printf("Opcode: %u\n", opcode);
-    printf("funct3: %u\n", funct3);
-    printf("imm: 0x%X\n", imm);
-    printf("Source register 1: %u\n", rs_1);
-    printf("Source register 2: %u\n", rs_2);
+    //printf("Opcode: %u\n", opcode);
+    //printf("funct3: %u\n", funct3);
+    //printf("imm: 0x%X\n", imm);
+    //printf("Source register 1: %u\n", rs_1);
+    //printf("Source register 2: %u\n", rs_2);
 
     // Make sure imm is shifted left by 1 (RISC-V uses bit[0] as 0 implicitly)
     //imm = imm >> 1; // OR: imm >>= 1;

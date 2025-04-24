@@ -77,6 +77,7 @@ wire [31:0] buffer_data;
 // Instruction Memory
 //----------------------------------------
 wire [31:0] instr_out;
+wire [31:0] instr_1;
 reg load_done;
 wire [7:0] pc;
 
@@ -87,6 +88,7 @@ wire [7:0] pc;
     .load_en     (buffer_ready),
     .load_inst   (buffer_data),
     .instruction (instr_out),
+    .instruction_1(instr_1),
     .load_done   (load_done)
 );
 
@@ -222,14 +224,40 @@ assign jump_address = is_jalr ? (read_data1 + ImmExt) :
 //----------------------------------------
 // LED Output Logic
 //----------------------------------------
-always @(posedge clk_10MHz or negedge rst_n) begin
-    if (!rst_n)
+reg [31:0] debug_signal;
+(* dont_touch = "yes" *)always @(posedge clk_10MHz or negedge rst_n) begin
+    if (!rst_n) begin
         led <= 16'd0;
+        debug_signal <= 32'd0;
+    end
     else begin
-        if (!sw[14])
-            led <= register1[15:0];
-        else
-            led <= register1[31:16];
+        case(sw)
+            //Rx Buffer Tap Debug
+            16'b0000000000000010: begin
+                if(buffer_ready) begin 
+                    debug_signal <= buffer_data;
+                end
+            end
+            
+            //Instruction Tap Debug
+            16'b0000000000000100: begin
+                debug_signal <= instr_1;
+            end
+            
+            //Instruction Done Tap Debug
+            16'b0000000000001000: begin
+                debug_signal <= {6'd32,{load_done}};
+            end
+            
+            //Program Counter Tap Debug
+            16'b0000000000010000: begin
+               debug_signal <= {24'b0,pc};
+            end
+            
+        endcase
+        
+        if(!sw[0]) led <= debug_signal[15:0];
+        else led <= debug_signal[31:16];
     end
 end
 

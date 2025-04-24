@@ -53,30 +53,30 @@ module uart_loader_tb;
         //    Encoding: 0x00A00293
         //0x00A00293
         instr_mem_data[0] = 8'h93;
-        instr_mem_data[1] = 8'h02;
+        instr_mem_data[1] = 8'h72;
         instr_mem_data[2] = 8'hA0;
         instr_mem_data[3] = 8'h00;
         
         // 2. ADD x6, x6, x5   → x6 = x6 + x5
         //    Encoding: 0x00528333
         //0x00528333
-        instr_mem_data[4] = 8'h33;
-        instr_mem_data[5] = 8'h03;
-        instr_mem_data[6] = 8'h53;
+        instr_mem_data[4] = 8'hB3;
+        instr_mem_data[5] = 8'h80;
+        instr_mem_data[6] = 8'h50;
         instr_mem_data[7] = 8'h00;
         
         // 3. SD x5 x0 5 -> Store register x5 into base 0 address 5
         //    Encoding: 0x005303B3
-        instr_mem_data[8] = 8'hA3;
-        instr_mem_data[9] = 8'h32;
-        instr_mem_data[10] = 8'h50;
-        instr_mem_data[11] = 8'h0A;
+        instr_mem_data[8]  = 8'hB3;
+        instr_mem_data[9]  = 8'h80;
+        instr_mem_data[10] = 8'h00;
+        instr_mem_data[11] = 8'h00;
         
         // 4. LD x5 x0 5 -> Load register x5 into base 0 address 5
         //    Encoding: 0x005303B3
         instr_mem_data[12] = 8'h83;
-        instr_mem_data[13] = 8'h33;
-        instr_mem_data[14] = 8'h50;
+        instr_mem_data[13] = 8'h32;
+        instr_mem_data[14] = 8'h20;
         instr_mem_data[15] = 8'h00;
         
         // 5. BEQ x0, x0, 0  return to start of program
@@ -90,7 +90,7 @@ module uart_loader_tb;
     
         // Fill rest with NOPs (addi x0, x0, 0 → 0x00000013)
         for (i = 20; i < 256; i = i + 4) begin
-            instr_mem_data[i] = 8'h13;
+            instr_mem_data[i]   = 8'h13;
             instr_mem_data[i+1] = 8'h00;
             instr_mem_data[i+2] = 8'h00;
             instr_mem_data[i+3] = 8'h00;

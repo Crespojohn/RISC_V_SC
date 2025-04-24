@@ -3,7 +3,7 @@ import time
 import sys
 
 # UART Configuration
-UART_PORT = '/dev/ttyUSB2'     # Update to your port
+UART_PORT = '/dev/ttyUSB1'     # Update to your port
 UART_BAUDRATE = 9600
 UART_DELAY = 10 / UART_BAUDRATE  # 10-bit frame per byte = start + 8 data + stop
 
