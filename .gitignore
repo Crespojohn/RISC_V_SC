@@ -44,7 +44,7 @@ vivado*.webtalk/
 *.dbg
 *.bin
 *.prj
-
+fpga/project*
 # === Keep these files ===
 !*.bit
 !*.vcd
