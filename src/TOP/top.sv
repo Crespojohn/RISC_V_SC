@@ -51,7 +51,7 @@ clk_wiz_0 clk_wiz (
 wire valid_RX;
 wire [7:0] RX_data;
 
-(* dont_touch = "yes" *) receiver RX (
+receiver RX (
     .clk   (clk_10MHz),
     .RxD   (RxD),
     .valid (valid_RX),
@@ -64,9 +64,9 @@ wire [7:0] RX_data;
 wire buffer_ready;
 wire [31:0] buffer_data;
 
-(* dont_touch = "yes" *) buffer_filler buffer_filler (
+buffer_filler buffer_filler (
     .clk        (clk_10MHz),
-    .rst_n      (rst_n && locked),
+    .rst_n      (rst_n),
     .data_in    (RX_data),
     .dval       (valid_RX),
     .data_out   (buffer_data),
@@ -81,9 +81,9 @@ wire [31:0] instr_1;
 reg load_done;
 wire [7:0] pc;
 
-(* dont_touch = "yes" *) instr_mem instr_mem (
+instr_mem instr_mem (
     .clk         (clk_10MHz),
-    .rst_n       (rst_n && locked),
+    .rst_n       (rst_n),
     .address     (pc),
     .load_en     (buffer_ready),
     .load_inst   (buffer_data),
@@ -225,33 +225,38 @@ assign jump_address = is_jalr ? (read_data1 + ImmExt) :
 // LED Output Logic
 //----------------------------------------
 reg [31:0] debug_signal;
-(* dont_touch = "yes" *)always @(posedge clk_10MHz or negedge rst_n) begin
+always @(posedge clk_10MHz or negedge rst_n) begin
     if (!rst_n) begin
         led <= 16'd0;
         debug_signal <= 32'd0;
     end
     else begin
-        case(sw)
+        casex(sw[14:0])
             //Rx Buffer Tap Debug
-            16'b0000000000000010: begin
+            15'b000000000000001X: begin
                 if(buffer_ready) begin 
                     debug_signal <= buffer_data;
                 end
             end
             
             //Instruction Tap Debug
-            16'b0000000000000100: begin
+            15'b000000000000010X: begin
                 debug_signal <= instr_1;
             end
             
             //Instruction Done Tap Debug
-            16'b0000000000001000: begin
-                debug_signal <= {6'd32,{load_done}};
+            15'b000000000000100X: begin
+                debug_signal <= {32,{load_done}};
             end
             
-            //Program Counter Tap Debug
-            16'b0000000000010000: begin
+            //Program Counter Tap Debug                                              
+            15'b000000000001000X: begin
                debug_signal <= {24'b0,pc};
+            end
+            
+            //Register File Tap Debug                                              
+            15'b000000000010000X: begin
+               debug_signal <= register1;
             end
             
         endcase
